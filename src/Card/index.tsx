@@ -1,3 +1,5 @@
+import StarFill from '../src/assets/resources/Star_fill.svg';
+
 interface ProductCardProps {
     image: string;
     popular?: boolean;
@@ -43,13 +45,13 @@ export default function ProductCard({
                 <div className="flex items-center gap-1">
                     {rating ? (
                         <>
-                            <img src="../src/assets/resources/Star_fill.svg" alt="decoration" className="w-5 h-5" />
+                            <img src={StarFill} alt="star_filled" className="w-5 h-5" />
                             <span className="text-white font-medium">{rating}</span>
                             <span className="text-[#4D5562] text-sm">({votes})</span>
                         </>
                     ) : (
                         <>
-                            <img src="../src/assets/resources/Star.svg" alt="decoration" className="w-5 h-5" />
+                            <img src="../src/assets/resources/Star.svg" alt="star" className="w-5 h-5" />
                             <span className="text-gray-500 text-sm">No ratings</span>
                         </>
                     )}
