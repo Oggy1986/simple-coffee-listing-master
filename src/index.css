@@ -1,0 +1,51 @@
+@import 'tailwindcss';
+
+@font-face {
+    font-family: 'DMSans';
+    src: url('/src/assets/fonts/DMSans-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'DMSans-Bold';
+    src: url('/src/assets/fonts/DMSans-Bold.ttf') format('truetype');
+    font-style: normal;
+    font-display: swap;
+}
+
+#root {
+    font-family: 'DMSans', 'DMSans-Bold', system-ui, Avenir, Helvetica, Arial, sans-serif;
+    line-height: 1.5;
+    font-weight: 400;
+    width: 100%;
+
+    color-scheme: light dark;
+    color: rgba(255, 255, 255, 0.87);
+    background-color: #121315;
+
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+    margin: 0;
+    display: flex;
+    place-items: center;
+    min-width: 320px;
+    min-height: 100vh;
+    min-width: 100%;
+}
+
+h1 {
+    font-family: 'DMSans-Bold', system-ui, Avenir, Helvetica, Arial, sans-serif;
+    font-size: 3.2em;
+    line-height: 1.1;
+}
+
+.font-dm-bold {
+    font-family: 'DMSans-Bold', system-ui, Avenir, Helvetica, Arial, sans-serif;
+}
