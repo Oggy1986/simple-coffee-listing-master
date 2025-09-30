@@ -1,4 +1,4 @@
-import StarFill from '../src/assets/resources/Star_fill.svg';
+import StarFill from './src/assets/resources/Star_fill.svg';
 
 interface ProductCardProps {
     image: string;
