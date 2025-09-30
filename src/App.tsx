@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import BackgroundImage from '../src/assets/resources/bg-cafe-lg.jpg';
+import BackgroundImage from './assets/resources/bg-cafe-lg.jpg';
 import Tab from '../src/Tab';
 import Card from '../src/Card';
 
@@ -46,12 +46,6 @@ function App() {
 
             {/* Scrollable content */}
             <div className="relative w-[90%] max-w-6xl mx-auto bg-[#1B1D1F]/90 rounded-lg shadow-lg pt-[5vh] pb-10 px-5 lg:px-10 mt-20">
-                {/* Vector decoration */}
-                <img
-                    src="../src/assets/resources/vector.svg"
-                    alt="decoration"
-                    className="fixed top-10 right-0 h-[30%] w-auto -z-10 opacity-40"
-                />
                 {/* Heading */}
                 <div className="text-white flex items-center justify-center p-4">
                     <h1 className="text-4xl font-bold text-center">Our Collection</h1>

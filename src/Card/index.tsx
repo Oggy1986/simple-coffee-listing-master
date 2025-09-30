@@ -1,4 +1,5 @@
 import StarFill from '../assets/resources/Star_fill.svg';
+import Star from '../assets/resources/Star.svg';
 
 interface ProductCardProps {
     image: string;
@@ -51,7 +52,7 @@ export default function ProductCard({
                         </>
                     ) : (
                         <>
-                            <img src="../src/assets/resources/Star.svg" alt="star" className="w-5 h-5" />
+                            <img src={Star} alt="star" className="w-5 h-5" />
                             <span className="text-gray-500 text-sm">No ratings</span>
                         </>
                     )}
